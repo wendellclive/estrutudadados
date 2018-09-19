@@ -53,7 +53,7 @@ public class ListaSequencialEncadeada {
 						}
 						break;
 					case '2':
-						if (listaSequencial.isVazia()) {
+						if (lsSequencial == null) {
 							System.out.println();
 							System.out.println("┌──────────────────────────────────┐");
 							System.out.println("│ LISTA VAZIA! RETORNE PARA O MENU │");
@@ -135,7 +135,7 @@ public class ListaSequencialEncadeada {
 						}
 						break;
 					case '2':
-						if (listaEncadeada.isVazia()) {
+						if (lsEncadeada == null) {
 							System.out.println();
 							System.out.println("┌──────────────────────────────────┐");
 							System.out.println("│ LISTA VAZIA! RETORNE PARA O MENU │");
